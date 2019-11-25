@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Talents Sample Plugin plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Talents Sample Plugin 0.1.0\n"
+"Project-Id-Version: Talents Sample Plugin 0.1.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/talents-sample-plugin\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2019-11-25T16:43:32+03:00\n"
+"POT-Creation-Date: 2019-11-25T21:15:37+03:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.4.0\n"
 "X-Domain: talents-sample-plugin\n"
@@ -32,6 +32,10 @@ msgstr ""
 
 #. Author URI of the plugin
 msgid "https://github.com/NationalTalentS"
+msgstr ""
+
+#: talents-sample-plugin.php:68
+msgid "Testing php string."
 msgstr ""
 
 #: talents-sample-plugin.php:70

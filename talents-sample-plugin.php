@@ -7,7 +7,7 @@
  * Author URI:      https://github.com/NationalTalentS
  * Text Domain:     talents-sample-plugin
  * Domain Path:     /languages
- * Version:         0.1.1
+ * Version:         0.1.2
  *
  * GitHub Plugin URI: NationalTalentS/talents-sample-plugin
  * GitHub Languages:  https://github.com/NationalTalentS/talents-sample-plugin-translations
@@ -47,7 +47,7 @@ function tsp_options_page() {
         'TalentS TEST',
         'TalentS TEST',
         'manage_options',
-        'wporg',
+        'talents-sample-plugin',
         'tsp_options_page_html'
     );
 }
@@ -65,7 +65,7 @@ function tsp_options_page_html() {
     ?>
     <div class="wrap">
         <h1><?php echo esc_html( get_admin_page_title() ); ?></h1>
-        <p><?php esc_html_e( 'Testing php string.', 'wporg' ); ?></p>
+        <p><?php esc_html_e( 'Testing php string.', 'talents-sample-plugin' ); ?></p>
         <p>
             <input type="button" onclick="test1()" value="<?php echo __( 'Test 1', 'talents-sample-plugin' ); ?>"> 
             <input type="button" onclick="test2()" value="<?php echo __( 'Test 2', 'talents-sample-plugin' ); ?>">
