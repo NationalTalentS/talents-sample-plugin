@@ -7,7 +7,7 @@
  * Author URI:      https://github.com/NationalTalentS
  * Text Domain:     talents-sample-plugin
  * Domain Path:     /languages
- * Version:         0.1.0
+ * Version:         0.1.1
  *
  * GitHub Plugin URI: NationalTalentS/talents-sample-plugin
  * GitHub Languages:  https://github.com/NationalTalentS/talents-sample-plugin-translations
@@ -70,7 +70,7 @@ function tsp_options_page_html() {
             <input type="button" onclick="test1()" value="<?php echo __( 'Test 1', 'talents-sample-plugin' ); ?>"> 
             <input type="button" onclick="test2()" value="<?php echo __( 'Test 2', 'talents-sample-plugin' ); ?>">
         </p>
-        <textarea id="tsp_test" rows="4"></textarea>
+        <textarea id="tsp_test" rows="4">Loading Assets: <?php echo plugin_dir_url( __FILE__ ) . 'js/test1.js'; ?></textarea>
     </div>
     <?php
 }
