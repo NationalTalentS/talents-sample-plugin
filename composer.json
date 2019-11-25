@@ -1,0 +1,20 @@
+{
+    "name": "nationaltalents/talents-sample-plugin",
+    "description": "test translation",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ahmader",
+            "email": "ahmader@talents.edu.sa"
+        }
+    ],
+    "require": {
+        "wp-cli/i18n-command": "^2.2"
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "wp i18n make-pot . languages/talents-sample-plugin.pot"
+        ]
+    }
+}
